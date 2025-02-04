@@ -1,0 +1,65 @@
+[33mcommit 9389adf08236860a45fe4de33c9926b12a249751[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mcodespace-verbose-orbit-wrv69pvw4r6p3566g[m[33m, [m[1;31morigin/codespace-verbose-orbit-wrv69pvw4r6p3566g[m[33m)[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Tue Feb 4 07:33:54 2025 +0000
+
+    Added all files from Codespace, excluding large files
+
+[33mcommit 9775f18154f52a5af9ea2335e7791eacb2d4bd68[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Tue Feb 4 06:31:32 2025 +0000
+
+    Saving all changes from Codespace
+
+[33mcommit 5e292bd6f07678be555ab187945fd716c838ee78[m[33m ([m[1;32mmain[m[33m)[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Tue Feb 4 05:53:35 2025 +0000
+
+    Remove large files and update .gitignore
+
+[33mcommit ae8ed5c41bf5c8fff561089a411a5f3946c209c8[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Tue Feb 4 05:37:32 2025 +0000
+
+    Add Git LFS tracking
+
+[33mcommit 65aad7bf671f84ada79e130d26828ebdc13e12e8[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Mon Feb 3 20:40:46 2025 +0000
+
+    Committing all files except large ones
+
+[33mcommit 73f1cca26386de589ad9556aefb5d96923c8fc68[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Mon Feb 3 20:31:42 2025 +0000
+
+    Large files commit
+
+[33mcommit 0313abd3972b0164c783f2cf65ff07906c54d943[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Mon Feb 3 20:16:43 2025 +0000
+
+    Move large file to Git LFS
+
+[33mcommit 18defb09e9f220f8e68c834842aea89740bdfd56[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Mon Feb 3 19:53:31 2025 +0000
+
+    Saved changes for data load and Docker setup (Finally got it working using Codespace)
+
+[33mcommit b048588ee2b600cd5137849e8fa8609eb3f41963[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Mon Feb 3 15:41:13 2025 +0000
+
+    Completed week 1 setup
+
+[33mcommit 64a37e952de6572305f3083476a0fdb44ef1b311[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Sun Feb 2 17:38:34 2025 +0000
+
+    Docker setup testrun
+
+[33mcommit 3cf359574e578466b9784abd094bd414192d8f23[m
+Author: BarnardF <168278143+BarnardF@users.noreply.github.com>
+Date:   Tue Jan 28 15:55:34 2025 +0000
+
+    Initial commit
