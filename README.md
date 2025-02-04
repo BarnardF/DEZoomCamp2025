@@ -11,7 +11,7 @@
     Week 6: Streaming
     Weeks 7, 8, 9: Project
 
-
+<h1>Week 1</h1>
 This is my setup for week 1 that worked for me(I am using codespace as my virtual environment)
 Week 1 - Setting Up Docker & PostgreSQL
 
