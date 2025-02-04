@@ -1,5 +1,17 @@
 # DEZoomCamp2025
 
+![Data engineering zoomcamp](https://github.com/user-attachments/assets/f7b0ffc5-ab8d-4c1c-9887-b382aaf826b0)
+
+
+Week 1: Introduction & Prerequisites
+Week 2: Workflow Orchestration
+Week 3: Data Warehouse
+Week 4: Analytics engineering
+Week 5: Batch processing
+Week 6: Streaming
+Weeks 7, 8, 9: Project
+
+
 This is my setup for week 1 that worked for me(I am using codespace as my virtual environment)
 Week 1 - Setting Up Docker & PostgreSQL
 
