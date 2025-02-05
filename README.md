@@ -1,5 +1,5 @@
 # Data Engineering ZoomCamp 2025
-Codespace reminder for myself
+<h3>Codespace reminder for myself</h3>
 ![stopping and starting codespace in vscode](https://github.com/user-attachments/assets/b8b621a4-25ee-4983-a674-4e4ea9ef64b4)
 
 
