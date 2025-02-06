@@ -18,15 +18,11 @@ Restarting a codespace
 ![Data engineering zoomcamp](https://github.com/user-attachments/assets/f7b0ffc5-ab8d-4c1c-9887-b382aaf826b0)
 
 
-<h3>Week 1: Introduction & Prerequisites</h3>
-Introduction to GCP
-Docker and Docker Compose
-Running PostgreSQL with Docker
-Infrastructure setup with Terraform
-
-    Week 2: Workflow Orchestration
-    Week 3: Data Warehouse
-    Week 4: Analytics engineering
-    Week 5: Batch processing
-    Week 6: Streaming
-    Weeks 7, 8, 9: Project
+    Module 1: Containerization and Infrastructure as Code
+    Module 2: Workflow Orchestration
+    Workshop 1: Data Ingestion
+    Module 3: Data Warehousing
+    Module 4: Analytics Engineering
+    Module 5: Batch Processing
+    Module 6: Streaming
+    Final project : week 7,8,9
