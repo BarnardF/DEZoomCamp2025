@@ -35,3 +35,8 @@ override.tf.json
 # Ignore CLI configuration files
 .terraformrc
 terraform.rc
+
+
+#key
+*.json
+module_1/terraform/taxi-rides-ny-449710-722718d0fd88.json
