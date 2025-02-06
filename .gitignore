@@ -4,3 +4,5 @@ module_1/week1_basics_n_setup/1_docker_sql/ny_taxi_postgres_data/
 module_1/terraform/.terraform/
 module_1/terraform/keys
 module_1/terraform/terraform.tfstate
+module_1/terraform/keys/
+
