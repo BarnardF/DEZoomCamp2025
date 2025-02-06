@@ -13,7 +13,9 @@ Week 1 - Setting Up Docker & PostgreSQL
 
 
 
-<h3>Challenges & How I Solved Them</h3>
+
+## 🛠️ Challenges & How I Solved Them
+
 | **Problem** | **How I Solved It** |
 |------------|--------------------|
 | `docker-compose up -d` failed because the port was already in use | Used `docker ps` to find running containers and `docker stop <container_id>` to free up the port |
