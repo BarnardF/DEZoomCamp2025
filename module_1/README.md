@@ -21,4 +21,4 @@ Week 1 - Setting Up Docker & PostgreSQL
 | `docker-compose up -d` failed because the port was already in use | Used `docker ps` to find running containers and `docker stop <container_id>` to free up the port |
 | Data was not loading into PostgreSQL | Realized the column names in my table didn’t match the CSV headers, so I adjusted them in the Python script |
 | Git was rejecting large files when committing | Used Git LFS to track large files and ignored unnecessary large database files |
-| `Operation not permitted` error when tracking files with Git LFS | Changed file permissions using `chmod` and ensured I wasn’t tracking PostgreSQL internal data |
+
