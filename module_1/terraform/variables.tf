@@ -1,12 +1,12 @@
 variable "credentials" {
   description = "My credentials"
-  default     = "./keys/taxi-rides-ny-449710-722718d0fd88.json"
+  default     = "<Path to your Service Account json file>"
 }
 
 
 variable "project" {
   description = "Project"
-  default     = "taxi-rides-ny-449710"
+  default     = "<Your project ID>"
 }
 
 variable "region" {
