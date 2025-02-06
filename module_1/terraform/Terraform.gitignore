@@ -44,7 +44,7 @@ module_1/terraform/taxi-rides-ny-449710-722718d0fd88.json
 #manual 
 /workspaces/DEZoomCamp2025/module_1/terraform/.terraform/providers/registry.terraform.io/hashicorp/google/6.17.0/linux_amd64
 /workspaces/DEZoomCamp2025/module_1/terraform/.terraform.lock.hcl
-/workspaces/DEZoomCamp2025/module_1/terraform/taxi-rides-ny-449710-722718d0fd88.json
+/workspaces/DEZoomCamp2025/module_1/terraform/keys/taxi-rides-ny-449710-722718d0fd88.json
 /workspaces/DEZoomCamp2025/module_1/terraform/terraform.tfstate
 /workspaces/DEZoomCamp2025/module_1/terraform/terraform.tfstate.backup
 /workspaces/DEZoomCamp2025/module_1/terraform/main.tf
