@@ -48,8 +48,6 @@ After the local pipeline was successfully running, I moved on to Google Cloud to
 <h2>Challenges & Solutions</h2>
 Throughout this module, I encountered several challenges, particularly due to the Linux environment in Codespaces. Here’s how I tackled them:
 
-## 🛠️ Challenges & How I Solved Them  
-
 | Challenge | How I Solved It |
 |-----------|-----------------|
 | `docker-compose up -d` failed because the port was already in use (used in a test run) | Used `docker ps` to find running containers and `docker stop <container_id>` to free up the port |
@@ -61,19 +59,16 @@ Throughout this module, I encountered several challenges, particularly due to th
 
 <h2>Software & Tools Used</h2>
 
-    Codespaces (Cloud-based development environment)
-    Docker Compose (Containerization and orchestration)
-    Kestra (Workflow orchestration)
-    PostgreSQL (Database for local pipelines)
-    pgAdmin4 (Database management tool)
-    Google Cloud Platform (GCP) (Cloud resources for ETL pipelines)
-    BigQuery (Data warehousing and analytics)
-    Python (Data ingestion scripts)
-    Git & GitHub (Version control and repository management)
+| Tool | Purpose |
+|------|---------|
+| **Codespaces** | Cloud-based development environment |
+| **Docker** | Containerization for PostgreSQL, pgAdmin, and Kestra |
+| **PostgreSQL** | Database used for NYC Taxi dataset |
+| **Kestra** | Orchestration platform for workflow automation |
+| **Terraform** | Infrastructure as Code for cloud setup |
+| **Google Cloud Platform (GCP)** | Cloud resources deployment |
+| **Python** | Data ingestion scripts |
+| **Git & GitHub** | Version control & repository management |
 
-| Column 1 | Column 2 | Column 3 |
-|----------|----------|----------|
-| Row 1    | Data A   | Data B   |
-| Row 2    | Data C   | Data D   |
 
     
