@@ -48,11 +48,16 @@ After the local pipeline was successfully running, I moved on to Google Cloud to
 <h2>Challenges & Solutions</h2>
 Throughout this module, I encountered several challenges, particularly due to the Linux environment in Codespaces. Here’s how I tackled them:
 
-Problem	How I Solved It
-Connection Refused errors when connecting to Postgres DB from Kestra	In Linux, host.docker.internal behaves differently. I modified the Docker Compose file to run both Kestra and its dedicated Postgres DB, referring to the container name postgres_zoomcamp instead of host.docker.internal.
-Errors setting up Google Cloud key in Kestra KV shop	After multiple test runs, I realized I had misspelled my Project ID from my GCS key. Once corrected, the key was successfully configured.
-YAML Templates Not Working as Expected	Since I used templates but made changes to connect everything together, I faced compatibility issues. Tweaking YAML parameters and ensuring consistent naming conventions solved these issues.
-Inter-Service Communication Issues	To enable communication between containers, I adjusted Docker network settings and container names. This allowed seamless interaction between Kestra, PostgreSQL, and pgAdmin.
+## 🛠️ Challenges & How I Solved Them  
+
+| Challenge | How I Solved It |
+|-----------|-----------------|
+| `docker-compose up -d` failed because the port was already in use (used in a test run) | Used `docker ps` to find running containers and `docker stop <container_id>` to free up the port |
+| Data was not loading into PostgreSQL | Realized the column names in my table didn’t match the CSV headers, so I adjusted them in the Python script |
+| Git was rejecting large files when committing | Added large files to `.gitignore` |
+| `terraform apply` failed due to authentication issues | Set up a Google Cloud service account and configured authentication correctly |
+| Google Cloud Key setup in Kestra's KV store was not working | Discovered a typo in my project ID from the GCS key after several test runs |
+
 
 <h2>Software & Tools Used</h2>
 
