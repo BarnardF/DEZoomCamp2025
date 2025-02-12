@@ -12,8 +12,21 @@ I configured a single docker-compose.yml file to manage Kestra, its dedicated Po
 
 Changes included:
 
-    A new volume for the Zoomcamp DB container.
-    Renaming the Zoomcamp DB container to avoid clashes with Kestra’s DB container.
-    Adding a depends_on condition to ensure Kestra was running before other services started.
-    Running pgAdmin on Port 8085 to avoid conflicts with Kestra, which uses Ports 8080 and 8081.
+    - A new volume for the Zoomcamp DB container.
+    - Renaming the Zoomcamp DB container to avoid clashes with Kestra’s DB container.
+    - Adding a depends_on condition to ensure Kestra was running before other services started.
+    - Running pgAdmin on Port 8085 to avoid conflicts with Kestra, which uses Ports 8080 and 8081.
+
+<h2>Building and Running Workflows</h2>
+I created several YAML files to build and test various workflows, its advised to run everything using the condigured docker-compose.yml file to run all foolowing scripts within Kestra, delete any output if necesarry to run the following .yaml file to test anything:
+
+    01_getting_started_data_pipeline.yaml
+    02_postgres_taxi.yaml
+    02_postgres_taxi_scheduled.yaml
+    03_postgres_dbt.yaml
+    04_gcp_kv.yaml
+    05_gcp_setup.yaml
+    06_gcp_taxi.yaml
+    06_gcp_taxi_scheduled.yaml
+    07_gcp_dbt.yaml
 
