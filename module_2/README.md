@@ -50,9 +50,6 @@ Throughout this module, I encountered several challenges, particularly due to th
 
 | Challenge | How I Solved It |
 |-----------|-----------------|
-| `docker-compose up -d` failed because the port was already in use (used in a test run) | Used `docker ps` to find running containers and `docker stop <container_id>` to free up the port |
-| Data was not loading into PostgreSQL | Realized the column names in my table didn’t match the CSV headers, so I adjusted them in the Python script |
-| Git was rejecting large files when committing | Added large files to `.gitignore` |
 | `terraform apply` failed due to authentication issues | Set up a Google Cloud service account and configured authentication correctly |
 | Google Cloud Key setup in Kestra's KV store was not working | Discovered a typo in my project ID from the GCS key after several test runs |
 
