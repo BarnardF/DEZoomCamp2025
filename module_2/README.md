@@ -30,3 +30,45 @@ I created several YAML files to build and test various workflows, its advised to
     06_gcp_taxi_scheduled.yaml
     07_gcp_dbt.yaml
 
+<h3>Local Pipeline (PostgreSQL & pgAdmin4)</h3>
+I initially connected Kestra with PostgreSQL and pgAdmin4 for a local data pipeline. This allowed me to:
+
+    Ingest data into the local PostgreSQL database.
+    Monitor and manage data using pgAdmin4.
+    Schedule and automate workflows using Kestra’s event-driven approach.
+
+<h3>Cloud Pipeline (Google Cloud Integration)</h3>
+After the local pipeline was successfully running, I moved on to Google Cloud to create an ETL Pipeline with GCS and BigQuery:
+
+    Google Cloud Storage (GCS): Used for storing raw and processed data.
+    BigQuery: For data warehousing and analytics.
+    I ran workflows in Kestra to manage Scheduling and Backfills using BigQuery.
+    Transform Data with dbt and BigQuery in Kestra
+
+<h2>Challenges & Solutions</h2>
+Throughout this module, I encountered several challenges, particularly due to the Linux environment in Codespaces. Here’s how I tackled them:
+
+Problem	How I Solved It
+Connection Refused errors when connecting to Postgres DB from Kestra	In Linux, host.docker.internal behaves differently. I modified the Docker Compose file to run both Kestra and its dedicated Postgres DB, referring to the container name postgres_zoomcamp instead of host.docker.internal.
+Errors setting up Google Cloud key in Kestra KV shop	After multiple test runs, I realized I had misspelled my Project ID from my GCS key. Once corrected, the key was successfully configured.
+YAML Templates Not Working as Expected	Since I used templates but made changes to connect everything together, I faced compatibility issues. Tweaking YAML parameters and ensuring consistent naming conventions solved these issues.
+Inter-Service Communication Issues	To enable communication between containers, I adjusted Docker network settings and container names. This allowed seamless interaction between Kestra, PostgreSQL, and pgAdmin.
+
+<h2>Software & Tools Used</h2>
+
+    Codespaces (Cloud-based development environment)
+    Docker Compose (Containerization and orchestration)
+    Kestra (Workflow orchestration)
+    PostgreSQL (Database for local pipelines)
+    pgAdmin4 (Database management tool)
+    Google Cloud Platform (GCP) (Cloud resources for ETL pipelines)
+    BigQuery (Data warehousing and analytics)
+    Python (Data ingestion scripts)
+    Git & GitHub (Version control and repository management)
+
+| Column 1 | Column 2 | Column 3 |
+|----------|----------|----------|
+| Row 1    | Data A   | Data B   |
+| Row 2    | Data C   | Data D   |
+
+    
