@@ -33,17 +33,17 @@ I created several YAML files to build and test various workflows, its advised to
 <h3>Local Pipeline (PostgreSQL & pgAdmin4)</h3>
 I initially connected Kestra with PostgreSQL and pgAdmin4 for a local data pipeline. This allowed me to:
 
-    Ingest data into the local PostgreSQL database.
-    Monitor and manage data using pgAdmin4.
-    Schedule and automate workflows using Kestra’s event-driven approach.
+    - Ingest data into the local PostgreSQL database.
+    - Monitor and manage data using pgAdmin4.
+    - Schedule and automate workflows using Kestra’s event-driven approach.
 
 <h3>Cloud Pipeline (Google Cloud Integration)</h3>
 After the local pipeline was successfully running, I moved on to Google Cloud to create an ETL Pipeline with GCS and BigQuery:
 
-    Google Cloud Storage (GCS): Used for storing raw and processed data.
-    BigQuery: For data warehousing and analytics.
-    I ran workflows in Kestra to manage Scheduling and Backfills using BigQuery.
-    Transform Data with dbt and BigQuery in Kestra
+    - Google Cloud Storage (GCS): Used for storing raw and processed data.
+    - BigQuery: For data warehousing and analytics.
+    - I ran workflows in Kestra to manage Scheduling and Backfills using BigQuery.
+    - Transform Data with dbt and BigQuery in Kestra
 
 <h2>Challenges & Solutions</h2>
 Throughout this module, I encountered several challenges, particularly due to the Linux environment in Codespaces. Here’s how I tackled them:
