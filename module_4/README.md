@@ -1,5 +1,5 @@
-[flow for dataflow.txt](https://github.com/user-attachments/files/18946464/flow.for.dataflow.txt)
-![dataform flow](https://github.com/user-attachments/assets/ec17bcbb-4733-43c4-b4ad-b831d13b2a8b)
+![dataform flow](https://github.com/user-attachments/assets/cb19791a-0001-4d38-aea5-7f41bbbfe05e)
+
 
 
 Staging Layer (stg_):
