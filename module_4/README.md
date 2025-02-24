@@ -12,11 +12,11 @@ fact_trips.sqlx: This combines and transforms the cleaned green and yellow taxi 
 Mart Layer (dm_):
 dm_monthly_zone_revenue: This is the final analytical layer that aggregates the data for business insights. It calculates monthly revenue metrics by zone using the fact_trips table.
 
-The flow is: Raw Data → Staging (cleaning) → Fact (combining) → Mart (analysis)ding flow for dataflow.txt…]()
+The flow is: Raw Data → Staging (cleaning) → Fact (combining) → Mart (analysis)
 
 
 
-[NY_Trips_Analyses_year_2019to2020.pdf](https://github.com/user-attachments/files/18946461/NY_Trips_Analyses_year_2019to2020.pdf)
+![analytics](https://github.com/user-attachments/assets/8f76694b-c064-4441-81b3-df958ad4d256)
 
 
 
