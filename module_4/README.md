@@ -1,1 +1,23 @@
+[flow for dataflow.txt](https://github.com/user-attachments/files/18946464/flow.for.dataflow.txt)
+![dataform flow](https://github.com/user-attachments/assets/ec17bcbb-4733-43c4-b4ad-b831d13b2a8b)
+
+
+Staging Layer (stg_):
+stg_green_tripdata.sqlx and stg_yellow_tripdata.sqlx: These standardize and clean the raw taxi trip data from two different sources (green and yellow taxis). They ensure consistent column names and data types, making it easier to combine later.
+dim_zones.sqlx: Creates a dimension table for NYC taxi zones, containing location reference data like borough and zone names.
+
+Core Layer (fact_):
+fact_trips.sqlx: This combines and transforms the cleaned green and yellow taxi data from the staging layer into a single, unified trips table. It joins with the zones dimension table to add location context to each trip.
+
+Mart Layer (dm_):
+dm_monthly_zone_revenue: This is the final analytical layer that aggregates the data for business insights. It calculates monthly revenue metrics by zone using the fact_trips table.
+
+The flow is: Raw Data → Staging (cleaning) → Fact (combining) → Mart (analysis)ding flow for dataflow.txt…]()
+
+
+
+[NY_Trips_Analyses_year_2019to2020.pdf](https://github.com/user-attachments/files/18946461/NY_Trips_Analyses_year_2019to2020.pdf)
+
+
+
 
