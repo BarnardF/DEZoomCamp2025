@@ -1,0 +1,32 @@
+Source Layer (Raw Data)
+
+
+fhv-data-2019
+green_tripdata
+yellow_tripdata
+
+
+Staging Layer (Cleaned Data)
+
+
+stg_green_tripdata
+stg_yellow_tripdata
+
+
+Core Layer
+
+
+dim_zones (dimension table for location data)
+fact_trips (combined trip data)
+
+
+Mart Layer
+
+
+dm_monthly_zone_revenue (final aggregated analysis)
+
+The arrows clearly show the data flow:
+
+Both staging views feed into fact_trips
+Both fact_trips and dim_zones feed into your final mart layer
+The transformation follows a clear, logical progression from raw data → staging → core → mart
